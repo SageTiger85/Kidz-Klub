@@ -9,6 +9,12 @@
     color: #5e17eb !important;
 }
 
+.nav-link:hover {
+    background-color: #5e17eb;
+    font-size: large;
+    color: greenyellow;
+}
+
 html,
 body {
     box-sizing: border-box;
@@ -17,10 +23,20 @@ body {
     font-family: 'Fredoka', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.carousel-inner>.carousel-item>img {
-    max-height: 50vh;
-    max-width: 33%;
-    margin: auto;
+.welcome {
+
+    color: #333333;
+}
+
+.welcome h2 {
+    position: center;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 360px;
+    width: 640px;
+   
+
 }
 
 
