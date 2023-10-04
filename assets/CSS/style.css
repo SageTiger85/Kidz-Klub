@@ -8,7 +8,7 @@
 body {
     box-sizing: border-box;
     height: 100%;
-    background-color: whitesmoke;
+    background-image: url("images/pexelyogakids8613321.jpg");
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -23,6 +23,7 @@ body {
 
 .welcome {
     color: #333333;
+    
 }
 
 .carousel-inner>.carousel-item>img {
