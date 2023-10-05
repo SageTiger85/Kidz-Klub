@@ -61,18 +61,26 @@ body {
       
 }
 
-table {
+.table-decor {
         border-collapse: collapse;
-        width: 30%;
-        float: right;
-        position: relative;
-        top: 20%;
-        right: 10%;
-        height: auto;
+        margin: 40px 25px;
+        min-width: 350px;
+        min-height: 400px;
+             
+}
+
+
+.colour th {
+    background-color: #c1ff72;
+    border: #320D37 solid 3px;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 table td {
-    
+    border: #320D37 solid 3px;  
+    text-align: left;
+    padding: 5px;  
 }
 
 footer {
