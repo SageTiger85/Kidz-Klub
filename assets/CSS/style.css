@@ -5,24 +5,25 @@
     margin: 0;
 }
 
+html,
 body {
-    box-sizing: border-box;
-    height: 100%;
-    background-image: url("images/pexels-paint-1148998.jpg");
     font-family: 'Fredoka', sans-serif;
-}
-
-.navbar-brand {
-    width: 150px;
+    background-image: url("/assets/images/pexels-paint-1148998.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    max-width: 100%;
 }
 
 #navbarNav .navbar-nav .nav-link {
-    color: #5e17eb;
+    color: #320D37;
+    font-size: 1.5em;
 }
 
 #navbarNav .navbar-nav .nav-link:hover {
     color: #c1ff72;
-    background-color: #5e17eb;
+    background-color: #320D37;
 }
 
 
@@ -37,7 +38,7 @@ footer {
     padding: 3px;
     height: 150px;
     background-color: #c1ff72;
-    color: #5e17eb;
+    color: #320D37;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -46,12 +47,12 @@ footer {
     flex-wrap: nowrap;
 }
 
-footer > div {
+footer>div {
     width: 33%;
     margin: auto;
     text-align: center;
-    
-    
+
+
 }
 
 
@@ -65,8 +66,7 @@ footer > div {
 
 .social-media i {
     font-size: 150%;
-    color: #5e17eb;
+    color: #320D37;
     padding: 5px;
     margin: 2px;
 }
-
