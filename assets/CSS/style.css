@@ -61,6 +61,11 @@ body {
 
 }
 
+.price {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .table-decor {
     border-collapse: collapse;
     margin: 40px 25px;
@@ -124,6 +129,15 @@ footer>div {
     margin: 2px;
 }
 
+.about {
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.about h2 {
+    text-align: center;
+}
 .carousel-container {
     margin-right: 30%;
     margin-left: 30%;
@@ -133,7 +147,7 @@ footer>div {
 }
 
 .clubOffer {
-    margin-top: 5px;
+    margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: solid;
