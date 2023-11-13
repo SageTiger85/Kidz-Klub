@@ -138,6 +138,7 @@ footer>div {
 .about h2 {
     text-align: center;
 }
+
 .carousel-container {
     margin-right: 30%;
     margin-left: 30%;
@@ -160,11 +161,58 @@ footer>div {
     grid-column-gap: 25px;
     grid-row-gap: 5%;
     margin: 30px 20px;
-    
+
 }
 
 .grid-layout img {
     width: 300px;
     height: 40%;
     object-fit: cover;
+}
+
+.query-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+.query-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
