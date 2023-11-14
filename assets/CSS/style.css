@@ -172,8 +172,8 @@ footer>div {
 }
 
 .query-container {
-    max-width: 65%;
-    margin: 10% auto;
+    max-width: 60%;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -181,9 +181,10 @@ footer>div {
 }
 
 .query-form {
+    max-width: 100%;
+    max-height: 70vh;
     display: flex;
     flex-direction: column;
-
 }
 
 h3 {
@@ -201,7 +202,7 @@ label {
 input,
 textarea {
     width: 100%;
-    padding: 8px;
+    padding: 3px;
     margin-bottom: 12px;
     box-sizing: border-box;
     border: 1px solid #ccc;
