@@ -14,7 +14,7 @@ body {
 }
 
 .backgroundImg {
-    background-image: url("/assets/images/pexels-paint-1148998.jpg");
+    background-image: url("../images/pexels-paint-1148998.jpg");
     opacity: 0.5;
     background-size: cover;
     background-repeat: no-repeat;
