@@ -6,6 +6,8 @@
 
 ## Introduction
 
+Young explorers is a fictional afterschool club that is run by fully vetted childcare professionals. They are a not for profit charity helping to offer affordable childcare for those in need. Young explorers are committed in providing a safe engaging environment in which children can feel included and engaged. 
+
 ### Project Information
 
-This website has been designed for a local afterschool club to aid in marketing their presence to a wider audience.
+This website has been designed for a local afterschool club to aid in marketing their presence to a wider audience. 
