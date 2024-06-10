@@ -171,28 +171,34 @@ footer>div {
     object-fit: cover;
 }
 
-.contact-container {
+.container {
     max-width: 600px;
     margin: 0 auto;
     background-color: #2fb623;
-    padding: 20px;
+    padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;   
 }
 
 h2 {
-    font-size: 2em;
-    text-decoration: underline;
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 1em;
+    color: 
 }
 
 .details {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #c1ff72;
+}
+
+.form-item {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
 .form-item label {
@@ -203,14 +209,13 @@ h2 {
 .form-item input,
 textarea {
     width: 100%;
-    padding: 3px;
-    margin-bottom: 12px;
-    box-sizing: border-box;
+    padding: 0.5em;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px;
+    box-sizing: border-box;
 }
 
-button {
+button[type="submit"] {
     background-color: #c1ff72;
     color: #320D37;
     font-weight: bold;
@@ -221,25 +226,18 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button[type="submit"]:hover {
     background-color: #320D37;
     color: #c1ff72;
     border: #c1ff72 3px solid;
 }
 
-
-    h2 {
-        font-size: 1.5em;
-        margin-bottom: 15px;
+@media (max-width: 600px) {
+    .details {
+        flex-direction: column;
+        gap: 1em;
     }
 
-    input,
-    textarea {
-        padding: 6px;
-        margin-bottom: 8px;
-    }
-
-    button {
-        font-size: large;
-        padding: 8px 12px;
+    .form-item {
+        flex: 1 1 100%;
     }
