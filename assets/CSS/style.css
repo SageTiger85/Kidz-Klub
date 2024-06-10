@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 html,
@@ -59,7 +60,6 @@ body {
     text-align: center;
     font-size: 1em;
     overflow: hidden;
-
 }
 
 .price {
@@ -171,35 +171,36 @@ footer>div {
     object-fit: cover;
 }
 
-.query-container {
-    max-width: 60%;
-    margin: auto;
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #2fb623;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #d8f7d5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;   
 }
 
-.query-form {
-    max-width: 100%;
-    max-height: 70vh;
-    display: flex;
-    flex-direction: column;
-}
-
-h3 {
+h2 {
     font-size: 2em;
     text-decoration: underline;
     margin-bottom: 20px;
     text-align: center;
 }
 
-label {
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c1ff72;
+}
+
+.form-item label {
     margin-bottom: 4px;
     font-size: large;
 }
 
-input,
+.form-item input,
 textarea {
     width: 100%;
     padding: 3px;
@@ -227,14 +228,7 @@ button:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
-    .query-container {
-        max-width: 50%;
-        margin-bottom: 150px;
-        padding: 10px;
-    }
-
-    h3 {
+    h2 {
         font-size: 1.5em;
         margin-bottom: 15px;
     }
@@ -249,4 +243,3 @@ button:hover {
         font-size: large;
         padding: 8px 12px;
     }
-}
